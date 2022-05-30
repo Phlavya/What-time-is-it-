@@ -3,30 +3,53 @@ Relógio digital usando HTML,  JS e CSS
 
 <!DOCTYPE html>
 
-<html lang="pt-br">
+
+<html lang="en">
 
   <head>
 
-    <                    título                    > Que horas são? </  título>
-    
-
     <meta charset="utf-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Digital Clock</title>
+
+    <link href="./styles.css" type="text/css" rel="stylesheet">
 
   </head>
 
   <body>
 
-    Aqui vai o código HTML que fará seu site aparecer.
+    <div class="container">
+
+      <div class="clock"></div>
+
+    </div>
+
+
+
+
 
     
-  </body>
 
-</ html >
-<script src="./script.js"></script>
 
-  </body>
 
-</html>
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
 
 
 
@@ -42,7 +65,7 @@ Relógio digital usando HTML,  JS e CSS
 
 body {
 
-  min-height: 100vh;
+  min-altura: 100vh
 
   width: 100%;
 
